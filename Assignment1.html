@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>Assignment1</title>
+<style>
+body{
+margin-right:400px;
+margin-left:400px;
+}
+input{
+border: 2px solid #2874a6 ;
+border-radius:5px;
+width:300px;
+margin-left:50px;
+}
+textarea{
+border: 2px solid #2874a6 ;
+border-radius:5px;
+width:300px;
+margin-left:50px;
+}
+fieldset{
+border: 2px solid black ;
+border-radius:7px;
+padding-top:0px;
+padding-bottom:30px;
+box-shadow:2px 2px 2px gray;
+}
+legend{
+color:#2874a6;
+}
+#m2{
+width:200px;
+}
+td{
+text-align:left;
+min-width:0px;
+}
+</style>
+</head>
+<body>
+<div id="l1">
+<h4 align="left">Fields marked(*) are required</h4>
+<fieldset>
+<legend><h4> Input Text Field Validation</h4></legend>
+<center>
+First Name*<input  type="text" placeholder="First Name" name="t1"><br><br>
+Last Name*<input  type="text" placeholder="Last Name" name="t2">
+</center>
+</fieldset>
+</div>
+
+<div id="l1">
+<fieldset>
+<legend><h4>Email and URL Validation</h4></legend>
+<center>
+Email*   <input  type="email" placeholder="e.g. mamatha@gmail.com" name="t3"><br><br>
+Website*<input  type="url" placeholder="e.g. https://www.google.com"name="t4">
+</center>
+</fieldset>
+</div>
+
+<div id="l1">
+<fieldset>
+<legend><h4>Mobile or Phone Number Validation</h4></legend>
+<center>
+Mobile*<input  type="number" placeholder="Please enter a ten digit phone number" name="t5">
+</center>
+</fieldset>
+</div>
+
+<div id="l1">
+<fieldset>
+<legend><h4>Drop Down Box Validation</h4></legend>
+<center>
+Country<input  type="text" list="m1">
+<datalist id="m1" name="t6">
+<option value="India" name="t9>
+<option value="American" name="t10>
+<option value="Indonesia" name="t11>
+<option value="China" name="t12>
+<option value="England" name="t13>
+</datalist>
+</center>
+</fieldset>
+</div>
+
+<div id="l1">
+<fieldset>
+<legend><h4> Number Validation with Specific Range</h4></legend>
+<center>
+Postcode*<input  type="number" name="t14">
+</center>
+</fieldset>
+</div>
+
+<div id="l1">
+<fieldset>
+<legend><h4>Textarea Validation</h4></legend>
+<center>
+Address* <textarea rows="2" cols=" 30" name="t15" ></textarea>
+</center>
+</fieldset>
+</div>
+
+<div id="l1">
+<fieldset>
+<legend><h4>CheckBox and Radio Button Validation</h4></legend>
+<table>
+<tr><td>Agree to T&C* <td><input type="CheckBox"></tr>
+<tr><td>Gender*<td><input type="radio"name="t16" value="male">Male<input type="radio" name="t16" value="female">Female</td></tr>
+</table>
+</fieldset>
+</div>
+
+<div id="l1">
+<fieldset>
+<legend><h4> Password Validation Using Pattern</h4></legend>
+<center>
+Password*<input  type="password"name="t17" >
+</center>
+</fieldset>
+</div>
+ <p align="right">
+<input  id="m2" style="background-color:#2874a6"  type="submit" value="Sign Up" font-size="30"> 
+</p>
+</body>
+</html>
